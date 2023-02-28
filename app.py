@@ -44,7 +44,7 @@ st.header('Movie Recommender System')
 #movies = pickle.load(open('movie_list.pkl','rb'))
 #similarity = pickle.load(open('similarity.pkl','rb'))
 def decompress_pickle(file):
-    data = bz2.BZ2File(file, 'rb')
+    data = BZ2File(file, 'rb')
     data = pickle.load(data)
     return data
 movies = decompress_pickle('movie_list.pbz2')
