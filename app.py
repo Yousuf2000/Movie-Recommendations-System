@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 import requests
-import bz2file as bz2
+from bz2file import BZ2File
 
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=aef03f80b5cf97bfe329fbc07cba5171&language=en-US".format(movie_id)
