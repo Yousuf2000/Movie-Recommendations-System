@@ -1,6 +1,5 @@
 import pickle
 import streamlit as st
-import pandas
 import requests
 from bz2file import BZ2File
 
