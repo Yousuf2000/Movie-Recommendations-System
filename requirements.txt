@@ -35,7 +35,7 @@ rich
 semver
 six
 smmap
-streamlit
+streamlit==1.10.0
 toml
 toolz
 tornado
